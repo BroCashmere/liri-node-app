@@ -97,6 +97,7 @@ if (app === 'movie-this'){
     )}};
 
 
+//Run the Spotify command on each song in the random.txt file
 if (app === 'do-what-it-says'){
     fs.readFile("random.txt", "utf8", function(error, data) {
         // If the code experiences any errors it will log the error to the console.
